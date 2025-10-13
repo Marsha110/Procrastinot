@@ -1,0 +1,137 @@
+>add Final1 HI 2023-07-31
+added 1: Final1
+>add complete_commands MD 2023-07-26
+added 2: complete_commands
+>add command_add
+added 3: command_add
+>toggle 3
+toggled command_add and 0 subtasks
+>add command_assign MD
+added 4: command_assign
+>add command_show 2023-07-25
+added 5: command_show
+>assign 3 2
+assigned command_add to complete_commands
+>toggle 4
+toggled command_assign and 0 subtasks
+>assign 4 2
+assigned command_assign to complete_commands
+>add-list timeCommands
+added timeCommands
+>assign 3 timeCommands
+assigned command_add to timeCommands
+>add command_change-date
+added 6: command_change-date
+>assign 6 2
+assigned command_change-date to complete_commands
+>assign 6 timeCommands
+assigned command_change-date to timeCommands
+>tag 2 incomplete
+tagged complete_commands with incomplete
+>add check_for_leap_year 2024-02-29
+added 7: check_for_leap_year
+>assign 7 3
+assigned check_for_leap_year to command_add
+>assign 2 1
+assigned complete_commands to Final1
+>show 1
+- [ ] Final1 [HI]: --> 2023-07-31
+  - [ ] complete_commands [MD]: (incomplete) --> 2023-07-26
+    - [x] command_assign [MD]
+    - [x] command_add
+      - [ ] check_for_leap_year: --> 2024-02-29
+    - [ ] command_change-date
+>toggle 5
+toggled command_show and 0 subtasks
+>change-date 6 2023-07-27
+changed command_change-date to 2023-07-27
+>toggle 6
+toggled command_change-date and 0 subtasks
+>upcoming 2023-07-26
+- [ ] Final1 [HI]: --> 2023-07-31
+  - [ ] complete_commands [MD]: (incomplete) --> 2023-07-26
+    - [x] command_assign [MD]
+    - [x] command_add
+      - [ ] check_for_leap_year: --> 2024-02-29
+    - [x] command_change-date: --> 2023-07-27
+>add variations_of_optional_parameters LO
+added 8: variations_of_optional_parameters
+>assign 8 3
+assigned variations_of_optional_parameters to command_add
+>list timeCommands
+- [x] command_add
+  - [ ] variations_of_optional_parameters [LO]
+  - [ ] check_for_leap_year: --> 2024-02-29
+- [x] command_change-date: --> 2023-07-27
+>delete 3
+deleted command_add and 2 subtasks
+>list timeCommands
+- [x] command_change-date: --> 2023-07-27
+>show 1
+- [ ] Final1 [HI]: --> 2023-07-31
+  - [ ] complete_commands [MD]: (incomplete) --> 2023-07-26
+    - [x] command_assign [MD]
+    - [x] command_change-date: --> 2023-07-27
+>restore 3
+restored command_add and 2 subtasks
+>tagged-with incomplete
+- [ ] complete_commands [MD]: (incomplete) --> 2023-07-26
+  - [x] command_assign [MD]
+  - [x] command_change-date: --> 2023-07-27
+  - [x] command_add
+    - [ ] variations_of_optional_parameters [LO]
+    - [ ] check_for_leap_year: --> 2024-02-29
+>toggle 7
+toggled check_for_leap_year and 0 subtasks
+>todo
+- [ ] Final1 [HI]: --> 2023-07-31
+  - [ ] complete_commands [MD]: (incomplete) --> 2023-07-26
+    - [x] command_add
+      - [ ] variations_of_optional_parameters [LO]
+>add check_for_leap_year
+added 9: check_for_leap_year
+>assign 9 6
+assigned check_for_leap_year to command_change-date
+>duplicates
+Found 2 duplicates: 7, 9
+>before 2023-07-30
+- [ ] complete_commands [MD]: (incomplete) --> 2023-07-26
+  - [x] command_assign [MD]
+  - [x] command_change-date: --> 2023-07-27
+    - [ ] check_for_leap_year
+  - [x] command_add
+    - [ ] variations_of_optional_parameters [LO]
+    - [x] check_for_leap_year: --> 2024-02-29
+- [x] command_show: --> 2023-07-25
+>change-priority 8 HI
+changed variations_of_optional_parameters to HI
+>tag timeCommands confusing
+tagged timeCommands with confusing
+>find s
+- [ ] complete_commands [MD]: (incomplete) --> 2023-07-26
+  - [x] command_assign [MD]
+  - [x] command_change-date: --> 2023-07-27
+    - [ ] check_for_leap_year
+  - [x] command_add
+    - [ ] variations_of_optional_parameters [HI]
+    - [x] check_for_leap_year: --> 2024-02-29
+- [x] command_show: --> 2023-07-25
+>toggle 1
+toggled Final1 and 7 subtasks
+>between 2023-01-01 2023-12-31
+- [x] Final1 [HI]: --> 2023-07-31
+  - [x] complete_commands [MD]: (incomplete) --> 2023-07-26
+    - [x] command_assign [MD]
+    - [x] command_change-date: --> 2023-07-27
+      - [x] check_for_leap_year
+    - [x] command_add
+      - [x] variations_of_optional_parameters [HI]
+      - [x] check_for_leap_year: --> 2024-02-29
+- [x] command_show: --> 2023-07-25
+>quit
+
+
+
+
+
+quit
